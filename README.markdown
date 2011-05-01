@@ -35,11 +35,9 @@ Getting flash messages couldn't be simpler, simply add the following to your lay
 	<?php endif; ?>
 		
 Or if you would like all of the messages on one line simply use
-```php
 
 	<?php if(!empty($this->flashMessages)):?>
 	<div class="flashmessages">
 		<?php implode(',', $this->flashMessages); ?>
 	</div>
 	<?php endif; ?>
-```

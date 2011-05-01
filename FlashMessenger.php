@@ -2,8 +2,8 @@
 
 /**
  * The FlashMessenger plugin will allow you to easily set up flash messaging within your application
- * @author gavinwilliams
- *
+ * @author gavinwilliams <gavin@fishrod.co.uk>
+ * @copyright 2011 Fishrod Interactive
  */
 class Application_Plugin_FlashMessenger extends Zend_Controller_Plugin_Abstract
 {
